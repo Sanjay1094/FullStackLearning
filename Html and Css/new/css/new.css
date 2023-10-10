@@ -1,0 +1,89 @@
+h3{
+    color:rgb(100,150,75);/*0 t0 255*/ 
+    color:#64964b;/*color code hexa decimal format*/
+    color:hsl(0, 0%, 100%);/*css 3 (degree,saturation,lightness)*/
+    background-color:rgba(225,0,0,.8);/*transparecny 0 t0 1*/
+}
+body{
+    font-family:Georgia, 'Times New Roman', serif ;/*word between la space vantha '' use panaum*/
+    font-size: 75%;
+    font-size: 1em;/*default 16 pixel*/
+    border:7px dotted green;
+}
+h1,h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1em ;
+    font-weight:normal;
+    font-style: italic;
+    font-stretch:condensed ;
+    text-transform: capitalize;/*first letters is capital*/
+    text-decoration:underline ;
+    letter-spacing: .25em;
+    word-spacing:.5em ;
+    text-align: center;
+    vertical-align: top;
+    /* max-height:300px ;
+    overflow: scroll; */
+
+
+} 
+/* .twodiv{
+    width: 500px;
+    border:1px solid block;
+}*/
+p{
+    line-height:1.5em;
+    text-align:justify;
+    text-indent: 50px;
+    /* text-shadow: 2px 2px 2px gray;
+    border:5px solid black; 
+    background-color: antiquewhite;
+    margin:20px;
+    border-radius: 10px;
+    padding: 17px; */
+    /* text-box-shadow:10px 10px 10px gray; */
+    /* border: 30px solid;
+    border-image: ; */
+
+}
+p:first-letter{
+    font-size: 2em;
+}
+a:visited{
+    color:blue;
+}
+a:link{
+    color:brown;
+} 
+a:hover{
+    color:green;
+}
+a:focus{
+    color:violet;
+}
+a:active{
+    color:yellow;
+}
+p[class]{
+     color:orange;
+}
+p[class ~="myclass"]{
+    color:orange;/* one of the values*/
+}
+p[class^='m']{
+    color:orange/*class name start with m*/
+}
+p[class$='s'] {
+    color:orange;/*class name end with s*/
+}
+p[class*='ss']{
+    color:blue;
+}
+li{
+    display:inline;
+    margin: 10px;
+}
+/* .one{
+    visibility: hidden;
+    display:none;
+}*/    

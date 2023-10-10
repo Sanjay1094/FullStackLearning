@@ -1,0 +1,12 @@
+ul{
+    list-style-type: circle;
+    /* list-style-position: outside;
+    list-style-image: url(""); */
+    /* list-style: inside circle; */
+}
+ol{
+    list-style-type:upper-roman ;
+}
+body{
+    color: red;
+}

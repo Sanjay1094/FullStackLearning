@@ -1,0 +1,40 @@
+/* one by one na varathu static position */
+.bluebox{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position:relative ;
+}
+.yellowbox{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    /* position: absolute; */ 
+    /* position: sticky;
+    top: 100px;once the value reach aaeta stop aaedum */
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+ /* .p h2{
+    text-align: center; 
+} */
+/* relative positioning */
+/* .yellowbox{
+    position: relative;
+    /* position: absolute; */
+    /* top: 30px;
+    left: 20px; 
+    bottom: 150px;;
+    left:48px ; 
+}*/
+.body{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .p h2{
+    position: relative;
+    left: 70px; ;
+     color:white;
+    background-color:black;
+ }

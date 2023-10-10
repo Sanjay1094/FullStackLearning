@@ -1,0 +1,40 @@
+ /*id selecter*/
+ #am{
+    color:blue
+ }
+ #d{
+    text-decoration:underline ;
+ }
+ /*class selecter*/
+ .changetext{
+    color:brown
+ }
+ /* universal selecter
+ *{
+    color:blue;
+ }*/
+ /*child secter*/
+ div>p{
+    color:brown;
+ }
+ /*desecent selecter*/
+ div a{
+    color:green;
+ }
+ /*sibling selecter*/
+ h1~h3{
+    color:blue;
+ }
+ /*adjacent sibling selecter*/
+ h1+h2{
+    color:orange;
+ }
+ h1,h2{
+    color:red !important;
+ }
+/*inheritance*/
+body{
+   color:green;
+}
+
+
